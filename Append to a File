@@ -1,0 +1,8 @@
+#The content of the file my_file.txt is
+
+#honda 1948
+#mercedes 1926
+#ford 1903
+
+with open("my_file.txt", "a") as f:
+   f.write("new text")
